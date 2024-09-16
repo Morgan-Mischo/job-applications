@@ -8,8 +8,10 @@ export default class homepage extends Component {
         var now = new Date();
         var datetime = now.toLocaleString().split(",")[0];
         return (
-            <div class="row">
-                <Header />
+            <div>
+                <div class="row">
+                    <Header />
+                </div>
                 <div class="row">
                     <div class="column">
                         <form>
